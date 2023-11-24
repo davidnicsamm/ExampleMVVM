@@ -1,4 +1,4 @@
-package com.davidnicsamm.examplemvvm.view
+package com.davidnicsamm.examplemvvm.ui.view
 
 import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import com.davidnicsamm.examplemvvm.databinding.ActivityMainBinding
-import com.davidnicsamm.examplemvvm.viewmodel.QuoteViewModel
+import com.davidnicsamm.examplemvvm.ui.viewmodel.QuoteViewModel
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,9 +1,9 @@
-package com.davidnicsamm.examplemvvm.viewmodel
+package com.davidnicsamm.examplemvvm.ui.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.davidnicsamm.examplemvvm.model.QuoteModel
-import com.davidnicsamm.examplemvvm.model.QuoteProvider
+import com.davidnicsamm.examplemvvm.data.model.QuoteModel
+import com.davidnicsamm.examplemvvm.data.model.QuoteProvider
 
 class QuoteViewModel : ViewModel() {
 
